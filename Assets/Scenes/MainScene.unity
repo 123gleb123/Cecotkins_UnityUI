@@ -978,7 +978,6 @@ GameObject:
   - component: {fileID: 153265313}
   - component: {fileID: 153265315}
   - component: {fileID: 153265314}
-  - component: {fileID: 153265316}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -1043,20 +1042,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 153265312}
   m_CullTransparentMesh: 1
---- !u!114 &153265316
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 153265312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 840998f812a8cc348a8b5ee27b242230, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slotType: 
-  armorDisplayImage: {fileID: 0}
 --- !u!1 &153681897
 GameObject:
   m_ObjectHideFlags: 0
@@ -2329,7 +2314,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 456338340}
   m_HandleRect: {fileID: 539610043}
   m_Direction: 2
-  m_MinValue: 0
+  m_MinValue: 0.1
   m_MaxValue: 2
   m_WholeNumbers: 0
   m_Value: 1
@@ -9295,7 +9280,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 1525178994}
   m_HandleRect: {fileID: 951744969}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.1
   m_MaxValue: 2
   m_WholeNumbers: 0
   m_Value: 1
